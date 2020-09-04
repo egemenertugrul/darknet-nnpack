@@ -3,11 +3,7 @@ NNPACK was used to optimize [AlexeyAB/darknet](https://github.com/AlexeyAB/darkn
 
 ## Build from Raspberry Pi 4
 Log in to Raspberry Pi using SSH.<br/>
-Install [PeachPy](https://github.com/Maratyszcza/PeachPy) and [confu](https://github.com/Maratyszcza/confu)
-```
-sudo pip install --upgrade git+https://github.com/Maratyszcza/PeachPy
-sudo pip install --upgrade git+https://github.com/Maratyszcza/confu
-```
+
 Install [Ninja](https://ninja-build.org/)
 ```
 sudo apt-get install ninja-build || brew install ninja
