@@ -1,7 +1,7 @@
 # Darknet with NNPACK
 NNPACK was used to optimize [AlexeyAB/darknet](https://github.com/AlexeyAB/darknet) without using a GPU. It is useful for embedded devices using ARM CPUs.
 
-## Build from Raspberry Pi 4
+## Build from Raspberry Pi
 Log in to Raspberry Pi using SSH.<br/>
 
 Install [Ninja](https://ninja-build.org/)
