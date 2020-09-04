@@ -10,7 +10,7 @@ sudo pip install --upgrade git+https://github.com/Maratyszcza/confu
 ```
 Install [Ninja](https://ninja-build.org/)
 ```
-
+sudo apt-get install ninja-build || brew install ninja
 ```
 Install clang
 ```
