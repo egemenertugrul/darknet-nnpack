@@ -22,6 +22,7 @@ cd build
 cmake -G Ninja -D BUILD_SHARED_LIBS=ON ..
 ninja
 sudo ninja install
+cd
 ```
 Build darknet-nnpack
 ```
