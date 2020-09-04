@@ -13,7 +13,16 @@ Install clang
 sudo apt-get install clang
 ```
 Install [NNPACK](https://github.com/egemenertugrul/NNPACK.git)
-
+```
+sudo apt-get install ninja-build || brew install ninja
+git clone https://github.com/egemenertugrul/NNPACK.git
+cd NNPACK
+mkdir build
+cd build
+cmake -G Ninja -D BUILD_SHARED_LIBS=ON ..
+ninja
+sudo ninja install
+```
 Build darknet-nnpack
 ```
 git clone https://github.com/egemenertugrul/darknet-nnpack.git
